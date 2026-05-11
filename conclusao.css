@@ -1,4 +1,4 @@
-:root{
+:root {
     --fundo: #F6F1E6;
     --fonte: #652A0E;
     --botao: #652A0E;
@@ -9,9 +9,10 @@
     --fundo-tema: #e3d4ba;
     --indicador: #3a231a;
     --divisor: #ebe6db;
+    --card: #F6F1E6;
 }
 
-.dark{
+.dark {
     --fundo: #1A110E;
     --fonte: #F0ECE1;
     --botao: #2c1e1a;
@@ -21,9 +22,10 @@
     --fundo-tema: #3a231a;
     --indicador: #F0ECE1;
     --divisor: #311e18;
+    --card: #422b24;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: var(--fundo);
@@ -31,7 +33,7 @@ body{
     font-family: 'Inter';
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items: center;
     height: 100vh;
 }
 
@@ -119,42 +121,43 @@ header {
     height: 16px;
 }
 
-.container{
+.container {
+    background-color: var(--card);
     margin: 20px;
     padding: 20px;
-    max-width: 900px; 
-    width: 100%; 
+    max-width: 900px;
+    width: 100%;
     box-shadow: 0 14px 14px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
 }
 
-.topo-container{
+.topo-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.container .topo-container img{
+.container .topo-container img {
     width: 80px;
     height: 80px;
 }
 
-.container p{
+.container p {
     font-size: 14px;
 }
 
-.container .qrCode{
+.container .qrCode {
     display: flex;
     justify-content: center;
 }
 
-.container .qrCode img{
+.container .qrCode img {
     padding: 15px;
     height: 350px;
     width: 350px;
 }
 
-.container .divisor{
+.container .divisor {
     background-color: var(--divisor);
     height: 2px;
     width: auto;
