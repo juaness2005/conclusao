@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="conclusao.css">
+    <title>Conclusão de pagamento</title>
+</head>
+<body>
+     <header>
+        <div class="topo">
+            <a href="#" class="voltar">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+            <div class="btn">
+                <input type="checkbox" class="checkbox" id="botao-tema" />
+                <label class="label" for="botao-tema">
+                    <img src="assets/sol.png" alt="Sol" class="img-sol">
+                    <img src="assets/lua.png" alt="Lua" class="img-lua">
+                    <div class="indicador"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="topo-container">
+            <img src="assets/Logo.png" alt="Logo">
+            <h1>Pedido: 00001</h1>
+        </div>
+
+        <p>Apresente o QR code na Cantina Carvalho para a retirada do seu pedido</p>
+
+        <div class="qrCode">
+            <img alt="qrCode" id="qrCode" class="qrCode">
+        </div>
+
+        <div class="divisor"></div>
+
+        <p>Acompanhe o seu pedido: </p>
+
+        <h2>O seu pedido ficará pronto daqui há 20 minutos.</h2>
+
+    </div>
+
+    <script src="conclusao.js"></script>
+</body>
+</html>
